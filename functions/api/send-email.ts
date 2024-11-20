@@ -24,7 +24,7 @@ export const onRequestPost: PagesFunction = async (context) => {
     // Email küldése Cloudflare Email Routing segítségével
     const email = {
       to: data.email,
-      from: "noreply@szakitsunk.hu",
+      from: "noreply@promnet.cloud",
       subject: "Fontos üzenet számodra",
       text: content,
       html: content.replace(/\n/g, '<br>')
@@ -42,8 +42,8 @@ export const onRequestPost: PagesFunction = async (context) => {
           },
         ],
         from: {
-          email: "noreply@szakitsunk.hu",
-          name: "Szakitsunk.hu"
+          email: "noreply@promnet.cloud",
+          name: "Szakitsunk - Online szolgáltatás"
         },
         subject: "Fontos üzenet számodra",
         content: [

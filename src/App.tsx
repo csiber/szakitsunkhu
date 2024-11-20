@@ -12,10 +12,10 @@ function App() {
             <HeartCrack className="h-16 w-16 text-pink-600" />
           </div>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Szakitsunk.hu
+            Szakitsunk - Online szolgáltatás
           </h1>
           <p className="text-xl text-gray-600">
-            Válassz egy sablont, személyre szabd, és küldd el a szakítóleveled
+            Válassz egy sablont, szabd személyre, és küldd el a szakítóleveled gyorsan és egyszerüen!
           </p>
         </div>
 
